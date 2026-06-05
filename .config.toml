@@ -1,0 +1,6 @@
+theme = "plate"
+baseURL = "https://web192.de/"
+languageCode = "de-de"
+title = "web192.de"
+description = "Dein Name oder Business"
+author = "web192"
