@@ -3,3 +3,4 @@
 content.backup/
 *.backup/
 *.bak
+*.public/
