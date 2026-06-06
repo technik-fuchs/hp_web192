@@ -1,0 +1,5 @@
+
+# Backups
+content.backup/
+*.backup/
+*.bak
