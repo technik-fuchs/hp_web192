@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+title = 'Mein Projekt'
+locale = 'de-de'
+languageCode = 'de-de'
+defaultContentLanguage = 'de'
+
+[languages]
+[languages.de]
+  title = 'Mein Projekt'
+  languageCode = 'de-de'
+  locale = 'de-de'
+  weight = 1

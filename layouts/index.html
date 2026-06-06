@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h2>{{ .Site.Title }}</h2>
+<p>Welcome! This is your homepage.</p>
+{{ if .Pages }}
+<h3>Recent Posts</h3>
+<ul>
+    {{ range first 10 .Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{ end }}
+{{ end }}
